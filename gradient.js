@@ -1,17 +1,4 @@
-// window.addEventListener('load', function(e) { document.querySelector('#test').innerHTML = "Colors: ";
- // var grad = new Gradient();
- // for (i=0;
- // i < 800;
- // i++) { grad.getHex(i);
- // var hex = grad.hex;
- // var node = document.createElement("DIV");
- // node.innerHTML = hex;
- // node.style.backgroundColor = hex;
- // if (grad.g < 125) node.style.color = "white";
- // document.body.appendChild(node);
- // };
- // }, false);
- // [{value: 100, r: 255, g: 0, b: 0}, ...] 
+
  function Gradient() { 
 			
 	this.nextPoint = new Object();
